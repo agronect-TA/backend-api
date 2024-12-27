@@ -6,7 +6,6 @@ import {
 } from "../models/authenticationModels.js";
 import bcrypt from "bcrypt";
 import dotenv from "dotenv";
-import { v1 as uuid } from "uuid";
 import jwt from "jsonwebtoken";
 
 dotenv.config();

@@ -142,7 +142,7 @@ import {
         expect(res.status).toHaveBeenCalledWith(401);
         expect(res.json).toHaveBeenCalledWith({
           status: "failed",
-          message: "Password not match",
+          message: "Password not matc",
           data: null,
         });
       });
