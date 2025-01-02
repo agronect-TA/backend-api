@@ -3,12 +3,14 @@ import {
     signIn,
     signOut,
   } from "../controllers/authenticationController.js";
+  
   import {
     signupAuthModel,
     checkedEmailRegister,
     signinAuthModel,
     signoutAuthModel,
   } from "../models/authenticationModels.js";
+
   import bcrypt from "bcrypt";
   import jwt from "jsonwebtoken";
   
